@@ -1,0 +1,56 @@
+{
+    "access_globals": {
+      "keys": [
+        {
+          "key": "fbq",
+          "read": true,
+          "write": true,
+          "execute": false
+        },
+        {
+          "key": "_fbq",
+          "read": false,
+          "write": true,
+          "execute": false
+        },
+        {
+          "key": "_fbq_gtm_ids",
+          "read": true,
+          "write": true,
+          "execute": false
+        },
+        {
+          "key": "fbq.callMethod.apply",
+          "read": true,
+          "write": false,
+          "execute": true
+        },
+        {
+          "key": "fbq.queue.push",
+          "read": false,
+          "write": false,
+          "execute": true
+        },
+        {
+          "key": "fbq.queue",
+          "read": true,
+          "write": true,
+          "execute": false
+        },
+        {
+          "key": "fbq.disablePushState",
+          "read": true,
+          "write": true,
+          "execute": false
+        }
+      ]
+    },
+    "inject_script": {
+      "urls": [
+        "https://connect.facebook.net/en_US/fbevents.js"
+      ]
+    },
+    "logging": {
+      "environments": "debug"
+    }
+  }
